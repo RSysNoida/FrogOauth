@@ -1,0 +1,28 @@
+{
+  "name": "react-native-frog-oauth",
+  "version": "1.0.0",
+  "description": "React Native Frog OAuth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSysNoida/FrogOauth.git"
+  },
+  "keywords": [
+    "Frog",
+    "OAuth"
+  ],
+  "author": "Frog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RSysNoida/FrogOauth/issues"
+  },
+  "homepage": "https://github.com/RSysNoida/FrogOauth#readme",
+  "dependencies": {
+    "oauth-1.0a": "^2.2.4",
+    "oauth-signature": "^1.5.0",
+    "react-native-indicators": "^0.13.0"
+  }
+}
