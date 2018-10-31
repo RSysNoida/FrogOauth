@@ -213,8 +213,9 @@ export default class OAuth extends Component {
         if (this.props.schoolUrl) {
 
             var str = this.props.schoolUrl
-            str = str.replace("http://", "");
-            str = str.replace("http://", "");
+         str = str.toLowerCase().replace("https://","");
+         str = str.toLowerCase().replace("http://","");
+
        //     console.log('checking url');
             this.props.showHideLoader(true);
 
